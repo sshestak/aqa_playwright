@@ -10,4 +10,4 @@ RUN npx playwright install --with-deps firefox
 
 COPY . .
 
-// CMD ["npx", "playwright", "test", "--project=firefox", "--forbid-only"]
+CMD ["npx", "playwright", "test"]
